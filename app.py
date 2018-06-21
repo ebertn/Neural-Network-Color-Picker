@@ -34,4 +34,5 @@ def worker():
 if __name__ == "__main__":
 	
 	network = NeuralNetwork.fromCsv((3, 5, 2), './data/labelled_colors.csv')
+	
 	#app.run()
